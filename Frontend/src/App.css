@@ -1,0 +1,60 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 16px;
+}
+
+.board {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  min-width: 180px;
+  background: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.column h1 {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+}
+
+.job-card {
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.job-card p {
+  margin: 0 0 10px;
+  line-height: 1.4;
+}
+
+.job-card button {
+  margin-right: 8px;
+}
+
+form {
+  margin-bottom: 24px;
+}
+
+form input,
+form select {
+  padding: 8px;
+  margin: 6px 0;
+  width: 100%;
+  max-width: 280px;
+  box-sizing: border-box;
+}
+
+form button {
+  padding: 8px 14px;
+  margin-top: 10px;
+}
