@@ -11,7 +11,7 @@ import './App.css'
 function App() {
   const [jobs,setJobs] = useState([])
   const [jobsUpdated, setJobsUpdated] = useState(0)
-  // const JobsUpdatedContext = createContext()
+
   useEffect(()=>{
      
     async function getJobs(){ 
